@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- & Title of the webpage -->
+    <title>Ex. 11 Shorthands</title>
+    <!-- & Link to the .css file -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- & Header
+    ~ The space near the top of the webpage that will make it easier to understand and navigate
+        ~ website logo
+        ~ title of the webpage
+        ~ search bar
+        ~ links to other parts of the website
+        ~ a button to sing into the webpage
+    -->
+    <header class="flex-container">
+        <!-- & Figure
+        ~ Usually a graphic, image, or a diagram
+        ~ It can also house more than one image
+        -->
+        <figure>
+            <img
+                src="img/a-cherry-blossom-xipher.png"
+                alt="Cherry Blossom Xipher"
+                class="img-header"
+            >
+        </figure>
+
+        <h1>Shorthands</h1>
+
+        <figure>
+            <img
+                src="img/a-cherry-blossom-xipher.png"
+                alt="Cherry Blossom Xipher"
+                class="img-header"
+            >
+        </figure>
+    </header>
+    <br>
+    <hr class="section-divider">
+    <br>
+
+    <!-- & Main
+    ~ This is where the main information of the webpage will go
+    -->
+    <main>
+        <br>
+        <h2># Shorthand Properties</h2>
+        <hr class="title-divider">
+        <br>
+
+        <ul>
+            <li>
+                Some properties in CSS, whether realized or not, can actually be broken down into seperate, more specific properties.
+            </li>
+            <li>
+                For instance, the "border" property is actually a shorthand for three additional properties: width, style, and color:
+                <ul>
+                    <li>
+                        <img
+                            src="img/b-border-shorthand-breakdown.png"
+                            alt="Border syntax covering the 3 properties it is shorthand for"
+                            width="275"
+                        >
+                    </li>
+                    <li>
+                        The rule above can be expressed with the shorthand "border" property
+                        <ul>
+                            <li>
+                                <img
+                                    src="img/c-border-syntax.png"
+                                    alt="Shorthand for different border
+                                    properties syntax"
+                                    width="275"
+                                >
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Either of these above examples would render the same result:
+                        <ul>
+                            <li>
+                                <img
+                                    src="img/d-rendered-result.png"
+                                    alt="Rendered result of either border property"
+                                    width="315"
+                                >
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Different "font" properties can be written shorthand as well:
+                <ul>
+                    <li>
+                        <img
+                            src="img/e-different-font-properties-syntax.png"
+                            alt="Different font properties syntax"
+                            width="275"
+                        >
+                    </li>
+                    <li>
+                        This would be the shorthand:
+                        <ul>
+                            <li>
+                                <img
+                                    src="img/f-shorthand-syntax-for-different-font-properties.png"
+                                    alt="Shorthand syntax for different font properties"
+                                    width="275"
+                                >
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                The shorthand "font" property must at least have a value for the "font-family" and "font-size" properties.
+            </li>
+            <li>
+                Everything else is optional, but the "font-weight" must go before the "font-size" (i.e. 800 12px)
+            </li>
+            <li>
+                It is best to note that some shorthand properties may not be compatible on all browsers, or inconsistently available (i.e. text-decoration on Safari). It is best to test shorthands on various browsers.
+            </li>
+        </ul>
+    </main>
+    <br>
+    <hr class="section-divider">
+    <br>
+
+    <!-- & Footer
+    ~ This is where important information will go that is not suitable for the <header> element
+        ~ Footnotes
+        ~ Links to extended resources
+            ~ In the <a> element -> use the following for the href attribute
+    -->
+    <footer>
+        <!-- & &copy; -> This is the symbol for copyright -->
+        &copy; 2025 EtariaL33. All rights reserved.
+    </footer>
+</body>
+</html>

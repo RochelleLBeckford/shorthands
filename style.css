@@ -1,0 +1,85 @@
+/* & This will style the font of the entire webpage */
+* {
+    font-family: "Caviar Dreams";
+    font-style: italic;
+    letter-spacing: .1em;
+}
+
+/* & This will style the entire webpage */
+body {
+    /* ~ Colors inspired by my VS Code Theme */
+    background-color: #393a55;
+    color: #ff9eb5;
+    min-height: 100vh;
+    /* ~ This will remove the default broswer spacing */
+    margin: 0;
+    padding: 0;
+}
+
+/* & This will style the header images */
+.img-header {
+    width: 225px;
+    height: 325px;
+    border: 5px solid #ff9eb5;
+    padding: 8px;
+}
+
+h1 {
+    background-color: #ff9eb5;
+    color: whitesmoke;
+    border: 5px solid whitesmoke;
+    padding: 10px;
+    text-align: center;
+}
+
+/* & This will create a flex container */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* & This will style the <hr> element, the horizontal line or dividing line that seperates sections on the webpage */
+.section-divider {
+    width: 90%;
+    height: 12px;
+    background: linear-gradient(90deg, #a9f1df 25%, #ffbbbb 75%)no-repeat;
+    border: none;
+}
+
+/* & This will style the <h2> element */
+h2 {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+/* & This will style the <hr> element, the horizontal line or dividing line that follows the header of each section on the webpage */
+.title-divider {
+    width: 60%;
+    height: 12px;
+    background: linear-gradient(90deg, #a9f1df 25%, #ffbbbb 75%)no-repeat;
+}
+
+/* & This will style the <li> element and the list markers */
+li {
+    list-style: circle;
+}
+
+li::marker {
+    font-size: 1.6em;
+}
+
+/* & This will style the <footer> element */
+footer {
+    text-align: center;
+    bottom: 0;
+    padding: 20px;
+}
+
+/* & This will style the <p> element */
+p {
+    text-align: center;
+    /* ~ Added a fallback font incase the first font is not rendered */
+    font: 800 25px cursive, serif;
+}
