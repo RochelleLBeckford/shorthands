@@ -1,15 +1,15 @@
 /* & This will style the font of the entire webpage */
 * {
-    font-family: "Caviar Dreams";
-    font-style: italic;
+    font-family: "Poiret One";
+    /* font-style: italic; */
     letter-spacing: .1em;
 }
 
 /* & This will style the entire webpage */
 body {
     /* ~ Colors inspired by my VS Code Theme */
-    background-color: #393a55;
-    color: #ff9eb1;
+    background-color: #393a60;
+    color: white;
     min-height: 100vh;
     /* ~ This will remove the default broswer spacing */
     margin: 0;
@@ -20,12 +20,13 @@ body {
 .img-header {
     width: 225px;
     height: 325px;
-    border: 5px solid #ff9eb1;
+    border: 5px solid #f79ca7;
     padding: 8px;
 }
 
 h1 {
-    background-color: #ff9eb1;
+    /* background-color: #ff9eb5; */
+    background-color: #f79ca7;
     color: whitesmoke;
     border: 5px solid whitesmoke;
     padding: 10px;
@@ -43,7 +44,7 @@ h1 {
 .section-divider {
     width: 90%;
     height: 12px;
-    background: linear-gradient(90deg, #a9f1df 25%, #ff9eb1 75%)no-repeat;
+    background: linear-gradient(90deg, #d5ffc9 25%, #f79ca7 75%)no-repeat;
     border: none;
 }
 
@@ -58,7 +59,7 @@ h2 {
 .title-divider {
     width: 60%;
     height: 12px;
-    background: linear-gradient(90deg, #a9f1df 25%, #ff9eb1 75%)no-repeat;
+    background: linear-gradient(90deg, #d5ffc9 25%, #f79ca7 75%)no-repeat;
 }
 
 /* & This will style the <li> element and the list markers */
